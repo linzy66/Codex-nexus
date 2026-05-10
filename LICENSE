@@ -1,0 +1,266 @@
+Codex Nexus Use-Only License v1.0
+
+Copyright (c) 2025 Codex Nexus 原作者保留所有权利。
+
+本软件及其相关文档文件（以下简称"软件"）的全部知识产权和著作权归原作者所有。
+获取本软件副本的任何个人或组织，须遵守以下全部条款：
+
+一、允许的行为
+
+  1. 个人用户可以免费下载、安装和使用本软件，仅限于个人非商业用途。
+  2. 允许在社交媒体、博客、视频平台分享使用体验，但必须注明原作者署名
+     并保留本许可证声明的完整引用。
+  3. 允许阅读源代码用于个人学习，但不得基于此产出任何衍生作品。
+
+二、需获得作者书面授权的行为
+
+  以下行为必须事先取得原作者的明确书面许可，未经授权一律禁止：
+
+  1. 修改、改编、翻译本软件的任何部分。
+  2. 基于本软件创建衍生作品或二次开发版本。
+  3. 将本软件集成、嵌入或整合到其他软件或项目中。
+  4. 将本软件用于教育机构、企业或组织的内部部署。
+  5. 以任何形式公开发布或分发经修改后的版本。
+
+  授权申请方式：通过本项目 GitHub Issues 或作者公开联系方式提交书面申请。
+
+  即使获得授权，被授权方仍须遵守以下全部附加条件：
+
+  (a) 署名义务：修改版本必须在显著位置注明"基于 Codex Nexus 原作修改"，
+      并保留原作者署名和本许可证全文。不得以任何方式暗示原作者为修改版本
+      提供了认可或背书。
+  (b) 免责隔离：被授权方对其修改内容承担全部法律责任。因修改版本引发的
+      任何问题、缺陷、安全漏洞、数据丢失、侵权纠纷或其他任何直接或间接
+      损害，均与原作者无关，原作者不承担任何责任。
+  (c) 不可转授权：授权仅限被授权方本人使用，不得将此授权转让、转许可或
+      分享给任何第三方。
+  (d) 授权范围限制：授权仅适用于书面许可中明确指定的用途和范围，超出
+      范围的行为视为未经授权。
+  (e) 商业禁止：即使获得修改授权，仍然禁止将修改版本用于任何商业用途
+      （参见第三条）。
+  (f) 品质声明：被授权方不得以原作者名义对修改版本的功能、性能、安全性
+      作出任何形式的保证或承诺。
+  (g) 赔偿义务：若因被授权方的修改版本导致任何第三方向原作者提出索赔，
+      被授权方应全额赔偿原作者因此遭受的一切损失，包括但不限于诉讼费用、
+      律师费和赔偿金。
+  (h) 撤销权：原作者保留随时撤销已授予权限的权利，撤销后被授权方必须
+      立即停止相关行为并删除或销毁所有修改版本。
+
+三、明确禁止的行为（任何情况下均不可授权）
+
+  1. 禁止将本软件用于任何商业目的，包括但不限于：销售、出租、许可转让、
+     植入广告、收取服务费、或作为付费产品/服务的组成部分。
+  2. 禁止复制、复刻（Fork）、镜像、重新分发或传播本软件的源代码或衍生版本。
+  3. 禁止逆向工程、反编译或反汇编（法律强制允许的情况除外）。
+  4. 禁止删除、修改或掩盖本软件中的版权声明、作者署名或本许可证文本。
+  5. 禁止以任何方式暗示或声明您是本软件的原创作者。
+
+四、免责声明
+
+  1. 本软件按"原样"（AS IS）和"现有"（AS AVAILABLE）基础提供，不附带
+     任何明示或暗示的担保，包括但不限于对适销性、特定用途适用性、准确性、
+     可靠性、完整性、安全性和不侵权性的担保。
+  2. 原作者不保证本软件的功能将满足您的需求，不保证运行不中断或无错误，
+     不保证与任何第三方服务、API、操作系统或硬件兼容。
+  3. 原作者不对因使用或无法使用本软件而产生的任何直接、间接、附带、特殊、
+     惩罚性或后果性损害承担责任，包括但不限于：
+     - 数据丢失或损坏
+     - 利润损失或业务中断
+     - API 费用或第三方服务产生的任何费用
+     - 安全漏洞或未经授权的访问
+     - 因软件配置不当导致的任何问题
+     - 与上游 API 提供商之间的任何纠纷
+  4. 用户应自行承担使用本软件的全部风险，包括但不限于 API 密钥的保管、
+     网络安全配置及合规性审查。
+  5. 原作者没有义务提供技术支持、Bug 修复、版本更新或任何形式的维护服务。
+  6. 本免责声明适用于所有使用场景，无论原作者是否被告知存在此类损害的可能性。
+
+五、违规与许可终止
+
+  1. 任何违反本许可证条款的行为将自动终止您的所有使用权利。
+  2. 许可终止后，您必须立即停止使用并销毁所有副本。
+  3. 原作者保留对任何违规行为追究法律责任的权利。
+
+六、第三方权益声明
+
+  1. 商标声明：本软件中提及的所有第三方名称、商标和服务标识，包括但不限于
+     OpenAI、Codex、GPT、DeepSeek、Kimi、Moonshot、通义千问（Qwen）、
+     阿里云（DashScope）、Mistral、Groq、xAI、Grok、OpenRouter、Ollama、
+     LM Studio 等，均为其各自所有者的注册商标或商标。本软件对这些名称的使用
+     仅用于兼容性描述和技术互操作目的，不构成任何形式的商标侵权。
+  2. 无关联声明：本软件是一个独立的开源项目，与上述任何公司、组织或产品
+     没有任何隶属、赞助、授权或官方合作关系。本软件不代表、不代言上述任何
+     第三方，也未获得上述任何第三方的认可或背书。
+  3. API 使用条款：用户在通过本软件访问任何第三方 API 服务时，必须自行遵守
+     相应服务提供商的服务条款（Terms of Service）、使用政策和费率规定。因违反
+     第三方服务条款而产生的任何后果，由用户自行承担，与本软件原作者无关。
+  4. API 密钥责任：用户的 API 密钥由用户自行获取和管理。因 API 密钥泄露、
+     滥用或被盗用而产生的任何费用、损失或法律责任，均由用户自行承担。本软件
+     仅在本地内存和用户设备上存储密钥，不会将密钥发送至原作者或任何第三方。
+  5. 协议兼容性：本软件通过实现与 OpenAI API 格式兼容的接口来提供服务，
+     这属于合法的协议互操作行为。本软件不包含任何第三方的专有代码、SDK 或
+     受版权保护的材料。
+  6. 间接侵权免责：若用户通过本软件的使用行为侵犯了任何第三方的知识产权、
+     服务条款或其他合法权益，相关法律责任由用户自行承担，原作者不承担任何
+     连带责任。
+
+================================================================================
+
+Codex Nexus Use-Only License v1.0
+
+Copyright (c) 2025 Codex Nexus Original Author. All Rights Reserved.
+
+All intellectual property rights and copyrights of this software and its
+associated documentation (hereinafter "Software") belong to the original author.
+Any individual or organization obtaining a copy of this Software must comply
+with all of the following terms:
+
+1. Permitted Actions
+
+  1. Individual users may download, install, and use this Software free of
+     charge for personal, non-commercial purposes only.
+  2. Sharing usage experiences on social media, blogs, or video platforms is
+     allowed, provided that original author attribution and this license
+     declaration are fully retained.
+  3. Reading the source code for personal learning is allowed, but producing
+     any derivative works based on it is prohibited.
+
+2. Actions Requiring Written Authorization from the Author
+
+  The following actions require explicit prior written permission from the
+  original author. Without authorization, they are strictly prohibited:
+
+  1. Modifying, adapting, or translating any part of this Software.
+  2. Creating derivative works or secondary development versions based on
+     this Software.
+  3. Integrating, embedding, or incorporating this Software into other
+     software or projects.
+  4. Deploying this Software internally within educational institutions,
+     enterprises, or organizations.
+  5. Publicly releasing or distributing any modified version in any form.
+
+  How to request authorization: Submit a written request via the project's
+  GitHub Issues or through the author's publicly available contact information.
+
+  Even if authorization is granted, the authorized party must comply with all
+  of the following additional conditions:
+
+  (a) Attribution Obligation: Modified versions must prominently state
+      "Based on Codex Nexus, modified from the original work" and retain
+      the original author's attribution and the full text of this license.
+      The authorized party must not imply in any way that the original
+      author has endorsed or approved the modified version.
+  (b) Liability Isolation: The authorized party assumes full legal
+      responsibility for all modifications. Any issues, defects, security
+      vulnerabilities, data loss, IP disputes, or any other direct or
+      indirect damages arising from the modified version are entirely
+      unrelated to the original author, who bears no liability whatsoever.
+  (c) Non-transferable Authorization: Authorization is granted solely to
+      the authorized party and may not be transferred, sublicensed, or
+      shared with any third party.
+  (d) Scope Limitation: Authorization applies only to the specific use
+      and scope explicitly stated in the written permission. Any actions
+      beyond the authorized scope are considered unauthorized.
+  (e) Commercial Prohibition: Even with modification authorization,
+      commercial use of the modified version remains strictly prohibited
+      (see Section 3).
+  (f) Quality Disclaimer: The authorized party must not make any
+      guarantees, warranties, or promises regarding the functionality,
+      performance, or security of the modified version in the name of
+      the original author.
+  (g) Indemnification Obligation: If any third party brings a claim
+      against the original author due to the authorized party's modified
+      version, the authorized party shall fully indemnify the original
+      author for all losses incurred, including but not limited to
+      litigation costs, attorney fees, and damages.
+  (h) Right of Revocation: The original author reserves the right to
+      revoke any granted authorization at any time. Upon revocation, the
+      authorized party must immediately cease all related activities and
+      delete or destroy all modified versions.
+
+3. Strictly Prohibited Actions (non-licensable under any circumstances)
+
+  1. Commercial use of this Software is prohibited, including but not limited
+     to: selling, renting, sublicensing, embedding advertisements, charging
+     service fees, or incorporating into paid products or services.
+  2. Copying, forking, mirroring, redistributing, or propagating the source
+     code or derivative versions of this Software is prohibited.
+  3. Reverse engineering, decompilation, or disassembly is prohibited (except
+     where mandated by applicable law).
+  4. Removing, altering, or obscuring copyright notices, author attribution,
+     or this license text within the Software is prohibited.
+  5. Implying or claiming authorship of this Software in any manner is
+     prohibited.
+
+4. Disclaimer
+
+  1. This Software is provided on an "AS IS" and "AS AVAILABLE" basis without
+     warranty of any kind, express or implied, including but not limited to
+     warranties of merchantability, fitness for a particular purpose, accuracy,
+     reliability, completeness, security, and non-infringement.
+  2. The original author does not warrant that the Software will meet your
+     requirements, that its operation will be uninterrupted or error-free, or
+     that it will be compatible with any third-party services, APIs, operating
+     systems, or hardware.
+  3. The original author shall not be liable for any direct, indirect,
+     incidental, special, punitive, or consequential damages arising from the
+     use or inability to use this Software, including but not limited to:
+     - Data loss or corruption
+     - Loss of profits or business interruption
+     - API fees or any charges incurred from third-party services
+     - Security vulnerabilities or unauthorized access
+     - Any issues caused by improper software configuration
+     - Any disputes with upstream API providers
+  4. Users assume all risks associated with the use of this Software,
+     including but not limited to the safekeeping of API keys, network
+     security configuration, and compliance review.
+  5. The original author is under no obligation to provide technical support,
+     bug fixes, version updates, or any form of maintenance service.
+  6. This disclaimer applies to all usage scenarios, regardless of whether
+     the original author has been advised of the possibility of such damages.
+
+5. Violation and License Termination
+
+  1. Any violation of this license automatically terminates all your rights
+     under this license.
+  2. Upon termination, you must immediately cease all use and destroy all
+     copies of this Software.
+  3. The original author reserves the right to pursue legal action for any
+     violation of the above terms.
+
+6. Third-Party Rights Declaration
+
+  1. Trademark Notice: All third-party names, trademarks, and service marks
+     mentioned in this Software, including but not limited to OpenAI, Codex,
+     GPT, DeepSeek, Kimi, Moonshot, Qwen, Alibaba Cloud (DashScope),
+     Mistral, Groq, xAI, Grok, OpenRouter, Ollama, and LM Studio, are
+     registered trademarks or trademarks of their respective owners. The use
+     of these names in this Software is solely for compatibility description
+     and technical interoperability purposes and does not constitute
+     trademark infringement of any kind.
+  2. No Affiliation: This Software is an independent project and has no
+     affiliation, sponsorship, authorization, or official partnership with
+     any of the above-mentioned companies, organizations, or products. This
+     Software does not represent or endorse any of the above third parties,
+     nor has it received endorsement or approval from any of them.
+  3. API Terms of Service: When accessing any third-party API services
+     through this Software, users must independently comply with the
+     respective service provider's Terms of Service, usage policies, and
+     rate regulations. Any consequences arising from violations of
+     third-party terms of service are the sole responsibility of the user
+     and are unrelated to the original author of this Software.
+  4. API Key Responsibility: Users' API keys are obtained and managed by
+     the users themselves. Any fees, losses, or legal liabilities arising
+     from API key leakage, misuse, or theft are the sole responsibility of
+     the user. This Software only stores keys in local memory and on the
+     user's device, and will never transmit keys to the original author or
+     any third party.
+  5. Protocol Compatibility: This Software provides services by implementing
+     interfaces compatible with the OpenAI API format, which constitutes
+     lawful protocol interoperability. This Software does not contain any
+     third-party proprietary code, SDKs, or copyrighted materials.
+  6. Indirect Infringement Disclaimer: If a user's use of this Software
+     infringes upon any third party's intellectual property rights, terms of
+     service, or other legal rights, the relevant legal liability shall be
+     borne solely by the user. The original author shall not bear any joint
+     or vicarious liability.

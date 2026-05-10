@@ -1,0 +1,16 @@
+node_modules/
+config.json
+sessions.json
+.env
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Editor
+.vscode/
+.idea/
+*.sublime-*

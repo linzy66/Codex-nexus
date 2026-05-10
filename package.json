@@ -1,0 +1,12 @@
+{
+  "name": "codex-nexus",
+  "version": "1.1.0",
+  "description": "Codex Nexus — 让 Codex CLI/IDE/App 使用任何兼容 OpenAI 的 AI 模型。协议适配层 + Web 配置界面。",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js --dev"
+  },
+  "keywords": ["codex", "openai", "nexus", "proxy", "deepseek", "kimi", "qwen"],
+  "license": "SEE LICENSE IN LICENSE"
+}

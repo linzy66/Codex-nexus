@@ -1,0 +1,80 @@
+{
+  "deepseek": {
+    "name": "DeepSeek",
+    "upstream": "https://api.deepseek.com/v1",
+    "models": {
+      "gpt-4.1": "deepseek-chat",
+      "gpt-4o": "deepseek-chat",
+      "o3": "deepseek-reasoner"
+    }
+  },
+  "kimi": {
+    "name": "Kimi",
+    "upstream": "https://api.moonshot.cn/v1",
+    "models": {
+      "gpt-4.1": "kimi-k2.6",
+      "gpt-4o": "kimi-k2.6",
+      "o3": "kimi-k2.6"
+    }
+  },
+  "qwen": {
+    "name": "通义千问",
+    "upstream": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "models": {
+      "gpt-4.1": "qwen-plus",
+      "gpt-4o": "qwen-turbo",
+      "o3": "qwen-max"
+    }
+  },
+  "mistral": {
+    "name": "Mistral",
+    "upstream": "https://api.mistral.ai/v1",
+    "models": {
+      "gpt-4.1": "mistral-large-latest",
+      "gpt-4o": "mistral-medium-latest"
+    }
+  },
+  "groq": {
+    "name": "Groq",
+    "upstream": "https://api.groq.com/openai/v1",
+    "models": {
+      "gpt-4.1": "llama-3.3-70b-versatile",
+      "gpt-4o": "llama-3.1-8b-instant"
+    }
+  },
+  "xai": {
+    "name": "xAI (Grok)",
+    "upstream": "https://api.x.ai/v1",
+    "models": {
+      "gpt-4.1": "grok-3",
+      "gpt-4o": "grok-3-mini"
+    }
+  },
+  "openrouter": {
+    "name": "OpenRouter",
+    "upstream": "https://openrouter.ai/api/v1",
+    "models": {
+      "gpt-4.1": "deepseek/deepseek-chat",
+      "gpt-4o": "openai/gpt-4o",
+      "o3": "openai/o3"
+    }
+  },
+  "ollama": {
+    "name": "Ollama (本地)",
+    "upstream": "http://localhost:11434/v1",
+    "models": {
+      "gpt-4.1": "qwen2.5:latest",
+      "gpt-4o": "llama3:latest"
+    }
+  },
+  "lmstudio": {
+    "name": "LM Studio (本地)",
+    "upstream": "http://localhost:1234/v1",
+    "models": {}
+  },
+  "custom": {
+    "name": "自定义",
+    "upstream": "",
+    "models": {}
+  }
+}
