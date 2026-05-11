@@ -724,7 +724,7 @@ function makeCustomSelect(sel) {
     return;
   }
   const wrap = document.createElement('div');
-  wrap.className = 'custom-sel ' + (sel.className || '');
+  wrap.className = 'custom-sel';
   sel._customWrap = wrap;
   sel.parentNode.insertBefore(wrap, sel);
 
@@ -950,7 +950,11 @@ function collectMappings() {
   const providerKeys = { ...(config.provider_api_keys || {}) };
   document.querySelectorAll('#modelMaps .model-row').forEach(row => {
     const k = row.querySelector('.mk').value.trim();
-    const p = row.querySelector('.mp').value;
+    const sel = row.querySelector('select.mp');
+    let p = sel ? sel.value : '';
+    if (sel && sel.selectedIndex >= 0 && sel.options[sel.selectedIndex]) {
+      p = sel.options[sel.selectedIndex].value;
+    }
     const v = row.querySelector('.mv').value.trim();
     const key = row.querySelector('.pk').value.trim();
     if (k && p && v) routes[k] = { provider: p, model: v };
@@ -984,6 +988,7 @@ wire_api = "responses"
 }
 
 async function save(restart = false) {
+  document.querySelectorAll('select').forEach(sel => { if (sel._sync) sel._sync(); });
   const pid = document.getElementById('provider').value;
   const collected = collectMappings();
 

@@ -5,7 +5,12 @@
     "models": {
       "gpt-4.1": "deepseek-chat",
       "gpt-4o": "deepseek-chat",
-      "o3": "deepseek-reasoner"
+      "o3": "deepseek-reasoner",
+      "gpt-5.5": "deepseek-chat",
+      "gpt-5.4": "deepseek-chat",
+      "gpt-5.4-mini": "deepseek-chat",
+      "gpt-5.3-codex": "deepseek-chat",
+      "gpt-5.2": "deepseek-chat"
     }
   },
   "kimi": {
@@ -14,7 +19,12 @@
     "models": {
       "gpt-4.1": "kimi-k2.6",
       "gpt-4o": "kimi-k2.6",
-      "o3": "kimi-k2.6"
+      "o3": "kimi-k2.6",
+      "gpt-5.5": "kimi-k2.6",
+      "gpt-5.4": "kimi-k2.6",
+      "gpt-5.4-mini": "kimi-k2.6",
+      "gpt-5.3-codex": "kimi-k2.6",
+      "gpt-5.2": "kimi-k2.6"
     }
   },
   "qwen": {
@@ -23,7 +33,12 @@
     "models": {
       "gpt-4.1": "qwen-plus",
       "gpt-4o": "qwen-turbo",
-      "o3": "qwen-max"
+      "o3": "qwen-max",
+      "gpt-5.5": "qwen-max",
+      "gpt-5.4": "qwen-max",
+      "gpt-5.4-mini": "qwen-plus",
+      "gpt-5.3-codex": "qwen-plus",
+      "gpt-5.2": "qwen-plus"
     }
   },
   "mistral": {
@@ -31,7 +46,12 @@
     "upstream": "https://api.mistral.ai/v1",
     "models": {
       "gpt-4.1": "mistral-large-latest",
-      "gpt-4o": "mistral-medium-latest"
+      "gpt-4o": "mistral-medium-latest",
+      "gpt-5.5": "mistral-large-latest",
+      "gpt-5.4": "mistral-large-latest",
+      "gpt-5.4-mini": "mistral-medium-latest",
+      "gpt-5.3-codex": "mistral-large-latest",
+      "gpt-5.2": "mistral-medium-latest"
     }
   },
   "groq": {
@@ -39,7 +59,12 @@
     "upstream": "https://api.groq.com/openai/v1",
     "models": {
       "gpt-4.1": "llama-3.3-70b-versatile",
-      "gpt-4o": "llama-3.1-8b-instant"
+      "gpt-4o": "llama-3.1-8b-instant",
+      "gpt-5.5": "llama-3.3-70b-versatile",
+      "gpt-5.4": "llama-3.3-70b-versatile",
+      "gpt-5.4-mini": "llama-3.1-8b-instant",
+      "gpt-5.3-codex": "llama-3.3-70b-versatile",
+      "gpt-5.2": "llama-3.3-70b-versatile"
     }
   },
   "xai": {
@@ -47,7 +72,12 @@
     "upstream": "https://api.x.ai/v1",
     "models": {
       "gpt-4.1": "grok-3",
-      "gpt-4o": "grok-3-mini"
+      "gpt-4o": "grok-3-mini",
+      "gpt-5.5": "grok-3",
+      "gpt-5.4": "grok-3",
+      "gpt-5.4-mini": "grok-3-mini",
+      "gpt-5.3-codex": "grok-3",
+      "gpt-5.2": "grok-3"
     }
   },
   "openrouter": {
@@ -56,7 +86,12 @@
     "models": {
       "gpt-4.1": "deepseek/deepseek-chat",
       "gpt-4o": "openai/gpt-4o",
-      "o3": "openai/o3"
+      "o3": "openai/o3",
+      "gpt-5.5": "openai/gpt-5.5",
+      "gpt-5.4": "openai/gpt-5.4",
+      "gpt-5.4-mini": "openai/gpt-5.4-mini",
+      "gpt-5.3-codex": "openai/gpt-5.3-codex",
+      "gpt-5.2": "openai/gpt-5.2"
     }
   },
   "ollama": {
@@ -64,7 +99,12 @@
     "upstream": "http://localhost:11434/v1",
     "models": {
       "gpt-4.1": "qwen2.5:latest",
-      "gpt-4o": "llama3:latest"
+      "gpt-4o": "llama3:latest",
+      "gpt-5.5": "qwen2.5:latest",
+      "gpt-5.4": "qwen2.5:latest",
+      "gpt-5.4-mini": "llama3:latest",
+      "gpt-5.3-codex": "qwen2.5:latest",
+      "gpt-5.2": "qwen2.5:latest"
     }
   },
   "lmstudio": {

@@ -21,6 +21,21 @@ const DEFAULT_CONFIG = {
 
 let config = { ...DEFAULT_CONFIG };
 
+function normalizeConfig(cfg) {
+  const next = { ...DEFAULT_CONFIG, ...cfg };
+  const routes = next.model_routes || {};
+  if (next.provider === 'custom' && Object.keys(routes).length === 0) {
+    next.model_routes = {
+      'gpt-5.4': { provider: 'custom', model: 'deepseek-ai/deepseek-v4-pro' },
+      'gpt-5.5': { provider: 'custom', model: 'deepseek-ai/deepseek-v4-pro' },
+      'gpt-5.4-mini': { provider: 'custom', model: 'deepseek-ai/deepseek-v4-pro' },
+      'gpt-5.3-codex': { provider: 'custom', model: 'deepseek-ai/deepseek-v4-pro' },
+      'gpt-5.2': { provider: 'custom', model: 'deepseek-ai/deepseek-v4-pro' },
+    };
+  }
+  return next;
+}
+
 function ensureDir() {
   try { fs.mkdirSync(CONFIG_DIR, { recursive: true }); } catch {}
 }
@@ -30,7 +45,7 @@ function load() {
   try {
     if (fs.existsSync(CONFIG_FILE)) {
       const raw = fs.readFileSync(CONFIG_FILE, 'utf8');
-      config = { ...DEFAULT_CONFIG, ...JSON.parse(raw) };
+      config = normalizeConfig(JSON.parse(raw));
     } else {
       config = { ...DEFAULT_CONFIG };
       save();
@@ -43,7 +58,8 @@ function load() {
 }
 
 function save(newCfg) {
-  if (newCfg) config = { ...config, ...newCfg };
+  if (newCfg) config = normalizeConfig({ ...config, ...newCfg });
+  else config = normalizeConfig(config);
   ensureDir();
   try {
     fs.writeFileSync(CONFIG_FILE, JSON.stringify(config, null, 2), 'utf8');
@@ -64,6 +80,9 @@ function getConfigPath() {
 // Get the first model name from current mappings
 function getFirstModelName() {
   const pid = config.provider || 'deepseek';
+  const routes = config.model_routes || {};
+  const routeKeys = Object.keys(routes);
+  if (routeKeys.length) return routeKeys[0];
   const overrides = (config.model_overrides && config.model_overrides[pid]) || {};
   const keys = Object.keys(overrides);
   if (keys.length) return keys[0];
@@ -84,8 +103,9 @@ function ensureNexusAuthKey() {
     }
   } catch {}
 
-  // Add or update the nexus key
-  authData['CODEX_NEXUS_KEY'] = 'sk-codex-nexus-local';
+  // Add or update the nexus key (use real API key if available)
+  const realKey = config.api_key || 'sk-codex-nexus-local';
+  authData['CODEX_NEXUS_KEY'] = realKey;
 
   try {
     fs.writeFileSync(authPath, JSON.stringify(authData, null, 2), 'utf8');
